@@ -16,7 +16,7 @@ function HeroSection() {
         </div>
         <div className={`${styles.hero} ${styles.container}`}>
           <div className={`${styles["hero-left"]}`}>
-            <img src="/src/assets/imgs/hero-img.png" alt="Hero-image" />
+            <img src="imgs/hero-img.png" alt="Hero-image" />
           </div>
           <div className={`${styles["hero-right"]}`}>
             <h1>We Help You Build & Grow an Online Business</h1>
