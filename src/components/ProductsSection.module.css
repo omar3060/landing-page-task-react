@@ -70,7 +70,7 @@
 .products-right .box-1::before {
   content: "";
   position: absolute;
-  background-image: url("/src/assets/imgs/products/chair.png");
+  background-image: url("/imgs/products/chair.png");
   bottom: 5rem;
   right: 0.4rem;
   width: 100%;
@@ -96,7 +96,7 @@
 .products-right .box-2::before {
   content: "";
   position: absolute;
-  background-image: url("/src/assets/imgs/products/beats.png");
+  background-image: url("/imgs/products/beats.png");
   bottom: 5.3rem;
   right: 1rem;
   width: 100%;
