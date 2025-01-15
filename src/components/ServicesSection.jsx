@@ -8,7 +8,7 @@ function ServicesSection() {
     <section className={`${styles['services-svg']}`}>
       <div className={`${styles['svg-shape']}`}>
         <img
-          src="/src/assets/imgs/SVGs/svg-2.png"
+          src="/imgs/SVGs/svg-2.png"
           alt="svg"
           className={`${styles.svg}`}
           loading="lazy"

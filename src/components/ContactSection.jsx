@@ -7,7 +7,7 @@ function ContactSection() {
     <section className={styles['contact-svg']}>
       <div className={`${styles['svg-shape']}`}>
         <img
-          src="/src/assets/imgs/SVGs/svg-3.png"
+          src="/imgs/SVGs/svg-3.png"
           alt="svg"
           className={`${styles.svg}`}
           loading="lazy"
@@ -35,7 +35,7 @@ function ContactSection() {
         </div>
         <div className={`${styles['contact-right']}`}>
           <img
-            src="/src/assets/imgs/contact-img.png"
+            src="/imgs/contact-img.png"
             alt="Hero-image"
             loading="lazy"
           />

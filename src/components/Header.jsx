@@ -8,7 +8,7 @@ function Header() {
         {/* Start Shapes */}
         <div className={`${styles.shapes}`}>
           <img
-            src="/src/assets/imgs/SVGs/svg.png"
+            src="/imgs/SVGs/svg.png"
             alt="first svg"
             className={`${styles.svg}`}
           />
