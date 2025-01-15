@@ -12,7 +12,7 @@ function AboutSection() {
             <div className={`${styles.box} ${styles["box-1"]}`}>
               <div className={`${styles.wave}`}>
                 <img
-                  src="/src/assets/imgs/WAVEs/wave-1.png"
+                  src="/assets/imgs/wave-1.png"
                   alt="wave-1"
                   loading="lazy"
                 />
