@@ -1,0 +1,42 @@
+.card {
+  background: var(--white-color);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  max-width: 300px;
+  flex: 1 1 300px;
+  padding: 0 15px 40px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card h2 {
+  margin: 15px 0;
+  font-size: 1.3rem;
+  color: #333;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.card p {
+  color: var(--paragraph-color);
+  line-height: 1.8;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+/* start services on mobile screens */
+@media (max-width: 767px) {
+  .services .card h2 {
+    font-size: 1rem;
+  }
+  .card p {
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+}

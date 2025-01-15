@@ -1,0 +1,139 @@
+/* start contact */
+
+/* start working with contact svg */
+.svg-shape {
+  position: relative;
+  z-index: -1;
+}
+.contact-svg .svg {
+  position: absolute;
+  width: 27rem;
+  height: 33rem;
+  max-width: 100%;
+  right: 0;
+}
+/* end working with contact svg */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.contact-left {
+  width: 30rem;
+}
+
+.contact-left h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 3rem 0 2rem;
+}
+
+.contact-left input,
+.contact-left textarea {
+  border: 0;
+  background-color: transparent;
+  padding: 1rem;
+  outline: none;
+  width: 20rem;
+}
+.contact-left form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  background-color: var(--white-color);
+  z-index: 2;
+}
+
+.contact-left form .mail,
+.contact-left form .message {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: var(--wrapper-container);
+  border-radius: 20px;
+}
+
+.contact-left form div i {
+  color: var(--paragraph-color);
+  margin-top: 19px;
+  margin-left: 20px;
+}
+
+.contact-left form button {
+  padding: 1rem 2rem;
+  margin-bottom: 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  margin-top: 1rem;
+  background: var(--gradient-background);
+  color: var(--white-color);
+}
+
+.contact-right {
+  width: 20rem;
+}
+
+.contact-right img {
+  width: 22rem;
+}
+/* start contact on mobile screens */
+@media (max-width: 767px) {
+  .contact {
+    padding-top: 3rem;
+  }
+  .contact-left h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+  }
+  .contact-left form button {
+    padding: 0.8rem 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 30px;
+    margin-top: 0.5rem;
+  }
+  .contact-right {
+    display: none;
+  }
+}
+/* end contact on mobile screens */
+/* end contact */
+
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+section {
+  padding-block: 3rem;
+}

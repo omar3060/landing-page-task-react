@@ -1,0 +1,129 @@
+/* start hero */
+/* start work with hero floating card */
+.hero-section {
+  position: relative;
+}
+.hero-section .box {
+  position: absolute;
+  height: 14rem;
+  width: 12rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  border-radius: 14px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--white-color);
+  margin-inline: 1rem;
+  padding-inline: 1rem;
+  top: 20rem;
+  left: 4rem;
+}
+
+.hero-section .box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end work with hero card */
+/* start hero large screens */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.hero-left {
+  flex-basis: 60%;
+}
+.hero-right {
+  width: 20rem;
+}
+.hero-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-right input,
+.hero-right button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+.hero-right form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+}
+
+.hero-right form input {
+  width: 80%;
+  padding: 15px 0 15px 15px;
+  color: var(--paragraph-color);
+}
+.hero-right form button {
+  padding: 8px 10px;
+  background-color: var(--border-background-color);
+  color: var(--white-color);
+  border-radius: 5px;
+}
+/* end hero large screens */
+/* start hero taplet screens */
+@media (max-width: 992px) and (min-width: 767px) {
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 2rem;
+  }
+  .hero-right h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 30rem;
+  }
+}
+/* end hero taplet screens */
+/* start hero mobile screens */
+@media (max-width: 767px) {
+  .hero-right h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+/* end hero mobile screens */
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+section {
+  padding-block: 3rem;
+}

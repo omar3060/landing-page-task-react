@@ -1,0 +1,77 @@
+.details-button {
+  background: var(--gradient-background);
+  background: var(--linear-gradient);
+  color: var(--white-color);
+  padding: 10px 0px 10px 15px;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  margin-top: 3rem;
+}
+.details-button button {
+  background-color: transparent;
+  border: none;
+  color: var(--white-color);
+  position: relative;
+  margin-left: 1.2rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.details-button i {
+  color: var(--border-background-color);
+  background-color: var(--white-color);
+  float: right;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--border-round);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+
+@media (max-width: 992px) and (min-width: 767px) {
+  /* start style details button component */
+    .details-button {
+      padding: 8px 0px 8px 10px;
+      width: 55%;
+      height: 40px;
+      border-radius: 33px;
+      margin-top: 2rem;
+    }
+    .details-button button {
+      margin-left: 1.5rem;
+      font-size: 0.8rem;
+    }
+    .details-button i {
+      padding: 15px;
+      width: 34px;
+      height: 34px;
+      font-size: 1rem;
+    }
+  }
+    /* end style details button component */
+  @media (max-width: 767px) {
+  .details-button {
+      padding: 5px 0px 5px 5px;
+      width: 45%;
+      height: 2rem;
+      margin-top: 1rem;
+    }
+    .details-button button {
+      margin-left: 1.5rem;
+      font-size: 0.6rem;
+      letter-spacing: 1px;
+    }
+    .details-button i {
+      width: 27px;
+      height: 27px;
+      font-size: 1rem;
+    }
+  }

@@ -1,0 +1,57 @@
+/* start services */
+/* start working with services svg */
+.svg-shape {
+  position: relative;
+  z-index: -1;
+}
+.services-svg .svg {
+  position: absolute;
+  width: 27rem;
+  height: 33rem;
+  max-width: 100%;
+}
+/* end working with services svg */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/* start services on mobile screens */
+@media (max-width: 767px) {
+  .services {
+    padding-top: 3rem;
+  }
+}
+/* end services on mobile screens */
+/* end services */
+
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+section {
+  padding-block: 3rem;
+}

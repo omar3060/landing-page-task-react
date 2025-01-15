@@ -1,0 +1,190 @@
+/* Start Header */
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  min-height: 97px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-right button {
+  border: none;
+  background-color: #f5f8fe;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* start working with shapes */
+.svg-shape {
+  position: relative;
+  z-index: -1;
+}
+.shapes .svg {
+  position: absolute;
+  width: 40rem;
+  max-width: 100%;
+}
+.dots-1 {
+  position: absolute;
+  background-image: url("/src/assets/imgs/DOTs/dots-blue.png");
+  background-size: cover;
+  width: 100px;
+  height: 200px;
+  top: 20rem;
+  right: 0;
+}
+.dots-2 {
+  position: absolute;
+  background-image: url("/src/assets/imgs/DOTs/dots-white.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  top: 30rem;
+  left: 0;
+}
+.shape {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  animation: float 6s ease-in-out infinite;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.triangle-1 {
+  border-width: 20px 20px 0 20px;
+  border-color: #ffcc29 transparent transparent transparent;
+  top: 10%;
+  left: 20%;
+}
+
+.triangle-2 {
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #7158e2 transparent;
+  bottom: -118%;
+  right: 8%;
+}
+
+.triangle-3 {
+  border-width: 15px 15px 0 15px;
+  border-color: #ff6b6b transparent transparent transparent;
+  top: 149%;
+  left: 48%;
+}
+.triangle-4 {
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+  top: 95%;
+  left: 20%;
+}
+
+.triangle-5 {
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #7158e2 transparent;
+  bottom: -32%;
+  right: 25%;
+}
+
+.triangle-6 {
+  border-width: 15px 15px 0 15px;
+  border-color: #ff6b6b transparent transparent transparent;
+  top: 593%;
+  left: 47%;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.circle-1 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: 211%;
+  left: 10%;
+}
+
+.circle-2 {
+  width: 15px;
+  height: 15px;
+  background-color: #7158e2;
+  bottom: -514%;
+  right: 20%;
+}
+
+.circle-3 {
+  width: 25px;
+  height: 25px;
+  background-color: #ff6b6b;
+  top: 280%;
+  right: 41%;
+}
+.circle-4 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 396%;
+  left: 3%;
+}
+
+.circle-5 {
+  width: 15px;
+  height: 15px;
+  background-color: #7158e2;
+  bottom: -548%;
+  right: 34%;
+}
+
+.circle-6 {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  top: 427%;
+  right: 48%;
+}
+/* end working with shapes */
+/* end header */
+
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+section {
+  padding-block: 3rem;
+}
