@@ -13,3 +13,6 @@ Currently, two official plugins are available:
 # npm install
 # npm run dev
 >>>>>>> ba865a2e57f63dc188d1b5148c5e31df181adf2f
+
+here's the Demo for this landing page
+https://landing-page-task-react-v1-cokd2rnkp-omars-projects-cf7c6bdd.vercel.app/
