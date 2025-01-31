@@ -14,8 +14,9 @@ Currently, two official plugins are available:
 # npm run dev
 >>>>>>> ba865a2e57f63dc188d1b5148c5e31df181adf2f
 >>>>>>
->>>>>>here's the design image i've got https://dribbble.com/shots/9776995-Growing-Online-Businesses-Landing-Page/attachments/1807767?mode=media
->>>>>>I have made every effort to ensure the design is pixel-perfect and fully responsive across all devices. Additionally, I have incorporated some animations to enhance the user experience.
+>>>>>>here's the design image i've got
+https://dribbble.com/shots/9776995-Growing-Online-Businesses-Landing-Page/attachments/1807767?mode=media
+I have made every effort to ensure the design is pixel-perfect and fully responsive across all devices. Additionally, I have incorporated some animations to enhance the user experience.
 
 
 
